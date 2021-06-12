@@ -169,9 +169,9 @@ h1,h2,h3 {
 }
 
 @media (max-width: 1360px) {
-  #title {
+  /* #title {
     text-align: center;
-  }
+  } */
 
   #swami-img {
     width: 100%;

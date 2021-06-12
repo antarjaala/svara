@@ -168,7 +168,7 @@ h1,h2,h3 {
   color:white;
 }
 
-@media screen and (max-width: 1360px)  {
+/* @media screen and (max-width: 1360px)  {
   #title {
     text-align: center;
   }
@@ -185,4 +185,4 @@ h1,h2,h3 {
   .donate-button{
     margin-bottom: 10%;
   }
-}
+} */

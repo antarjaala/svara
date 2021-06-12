@@ -1,0 +1,184 @@
+
+body {
+  font-family: 'Cardo', serif;
+}
+
+#title {
+  background-color: #e05038;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 15% 7%;
+}
+
+h1,h2,h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.donate-button{
+  font-weight: bold;
+  font-size: 0.9rem;
+  color:#696969;
+  text-align:left;
+  margin-top:30px;
+}
+
+#features h1,h2,h3{
+  color:black;
+  text-align: center;
+}
+
+#features h3{
+  font-size: 2rem;
+}
+
+.navbar {
+  padding:10 10 10 10;
+  margin-left: 350px;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: -100%;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+#swami-img {
+  width: 30%;
+  position: absolute;
+  margin-left: -2%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #e05038;
+  color: white;
+  text-align: center;
+}
+#testimonials h2{
+  color:white;
+}
+.testimonial-image {
+  width: 300px;
+  height:150px;
+  border-radius: 10%;
+}
+
+#press {
+  background-color: #e05038;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#donate {
+  padding: 100px;
+  text-align: center;
+}
+
+.cards-division {
+  margin-left: 20%;
+}
+
+.donate-column {
+  padding: 3% 4%;
+}
+
+#donate p{
+  text-align: center;
+}
+
+#contact {
+  background-color: #e05038;
+  text-align: center;
+  padding: 3%;
+  color: white;
+}
+
+#contact h3 {
+  /* font-family: 'Montserrat-Black'; */
+  width:60%;
+  font-size: 3rem;
+  color: #fff;
+  margin:auto;
+  padding-bottom: 3%;
+
+}
+
+#contact .download-button {
+  margin: 1% 2% 3% 1%;
+}
+
+#footer {
+  margin: 2%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding: .5%;
+}
+
+.fa-facebook-f{
+  color:white;
+}
+
+@media (max-width: 1360px) {
+  #title {
+    text-align: center;
+  }
+
+  #swami-img {
+    width: 100%;
+    position: static;
+  }
+
+  .cards-division {
+    margin-left: 10%;
+  }
+}

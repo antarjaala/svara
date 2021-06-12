@@ -195,9 +195,36 @@ h1,h2,h3 {
     width: 100%;
     /* transform: rotate(0deg); */
     position: static;
+    margin-bottom:10%;
   }
 
   .cards-division {
     margin-left: 10%;
   }
+  .donate-button{
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    #title {
+      text-align: center;
+    }
+
+    #swami-img {
+      width: 100%;
+      /* transform: rotate(0deg); */
+      position: static;
+      margin-bottom:10%;
+    }
+
+    .cards-division {
+      margin-left: 10%;
+    }
+    .donate-button{
+      margin-bottom: 10%;
+    }
 }
